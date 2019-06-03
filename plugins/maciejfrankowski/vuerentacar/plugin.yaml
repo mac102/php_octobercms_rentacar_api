@@ -1,0 +1,11 @@
+plugin:
+    name: 'maciejfrankowski.vuerentacar::lang.plugin.name'
+    description: 'maciejfrankowski.vuerentacar::lang.plugin.description'
+    author: 'Maciej Frankowski'
+    icon: oc-icon-car
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Vehicles
+        url: maciejfrankowski/vuerentacar/vehicles
+        icon: icon-car

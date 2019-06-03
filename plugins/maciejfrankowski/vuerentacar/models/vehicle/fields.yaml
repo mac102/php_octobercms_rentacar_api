@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: 'Vehicle name'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: Description
+        size: large
+        span: auto
+        type: richeditor

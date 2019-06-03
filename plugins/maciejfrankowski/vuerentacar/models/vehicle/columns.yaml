@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'Vehicle name'
+        type: text
+        searchable: true
+        sortable: true

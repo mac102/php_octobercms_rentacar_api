@@ -1,0 +1,12 @@
+list: $/maciejfrankowski/vuerentacar/models/vehicle/columns.yaml
+modelClass: MaciejFrankowski\Vuerentacar\Models\Vehicle
+title: Vehicles
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'maciejfrankowski/vuerentacar/vehicles/update/:id'

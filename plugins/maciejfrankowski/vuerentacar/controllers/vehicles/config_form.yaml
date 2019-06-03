@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/maciejfrankowski/vuerentacar/models/vehicle/fields.yaml
+modelClass: MaciejFrankowski\Vuerentacar\Models\Vehicle
+defaultRedirect: maciejfrankowski/vuerentacar/vehicles
+create:
+    redirect: 'maciejfrankowski/vuerentacar/vehicles/update/:id'
+    redirectClose: maciejfrankowski/vuerentacar/vehicles
+update:
+    redirect: maciejfrankowski/vuerentacar/vehicles
+    redirectClose: maciejfrankowski/vuerentacar/vehicles
